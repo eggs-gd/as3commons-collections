@@ -34,7 +34,7 @@ package org.as3commons.collections.framework.core {
 		 * AbstractList constructor.
 		 */
 		public function AbstractList() {
-			_array = new Array();
+			_array = [];
 		}
 
 		/*
@@ -194,7 +194,7 @@ package org.as3commons.collections.framework.core {
 		 */
 		public function clear() : Boolean {
 			if (!_array.length) return false;
-			_array = new Array();
+			_array = [];
 			return true;
 		}
 	

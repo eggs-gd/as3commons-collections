@@ -95,7 +95,7 @@ package org.as3commons.collections {
 		public function Map() {
 			_items = new Dictionary();
 			_keys = new Dictionary();
-			_stringMap = new Object();
+			_stringMap = {};
 		}
 		
 		/*

@@ -58,14 +58,14 @@ package org.as3commons.collections.utils {
 
 		/**
 		 * Creates, populates and returns a new <code>Set</code> instance.
-		 * 
+		 *
 		 * <p>The arguments may be left out. In that case no item is added to the set.</p>
-		 * 
+		 *
 		 * <listing>
 				var theSet : LinkedSet = Sets.newSet(item1, item2, ...);
 		 * </listing>
-		 * 
-		 * @param ...args List of key-item-pairs to add to the set.
+		 *
+		 * @param args List of key-item-pairs to add to the set.
 		 * @return A new <code>Set</code> instance populated from the given arguments.
 		 */
 		public static function newSet(...args) : Set {

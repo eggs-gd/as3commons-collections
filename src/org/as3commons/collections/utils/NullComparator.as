@@ -33,7 +33,7 @@ package org.as3commons.collections.utils {
 		 * Compares two items and returns 0.
 		 * 
 		 * @param item1 The first item.
-		 * @param item1 The second item.
+		 * @param item2 The second item.
 		 * @return <code>0</code>.
 		 */
 		public function compare(item1 : *, item2 : *) : int {

@@ -55,7 +55,7 @@ package org.as3commons.collections.utils {
 		 * Compares two numbers.
 		 * 
 		 * @param item1 The first number.
-		 * @param item1 The second number.
+		 * @param item2 The second number.
 		 * @return <code>-1</code> if the first number is lesser, <code>1</code> if greater and
 		 * <code>0</code> if both are equal.
 		 * @throws UncomparableType if either of the items is not a number.
