@@ -250,10 +250,10 @@ package org.as3commons.collections {
 		 * @inheritDoc
 		 */
 		public function toArray() : Array {
-			var array : Array = new Array();
-			var iterator : IIterator = iterator();
-			while (iterator.hasNext()) {
-				array.push(iterator.next());
+			var array : Array = [];
+			var it : IIterator = iterator();
+			while (it.hasNext()) {
+				array.push(it.next());
 			}
 			return array;
 		}
@@ -403,7 +403,6 @@ package org.as3commons.collections {
 				if (compare == -1) { // add item in left branch
 					if (node.left) {
 						node = node.left;
-						continue;
 					} else {
 						node.left = new TreapNode(item, node);
 						node = node.left;
@@ -412,7 +411,6 @@ package org.as3commons.collections {
 				} else if (compare == 1) { // add item in right branch
 					if (node.right) {
 						node = node.right;
-						continue;
 					} else {
 						node.right = new TreapNode(item, node);
 						node = node.right;

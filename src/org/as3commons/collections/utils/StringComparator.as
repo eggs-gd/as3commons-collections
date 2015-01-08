@@ -71,9 +71,9 @@ package org.as3commons.collections.utils {
 
 		/**
 		 * Compares two strings.
-		 * 
+		 *
 		 * @param item1 The first string.
-		 * @param item1 The second string.
+		 * @param item2 The second string.
 		 * @return <code>-1</code> if the first string is lesser, <code>1</code> if greater
 		 * and <code>0</code> if both strings are equal.
 		 * @throws UncomparableType if either of the items is not a string.
